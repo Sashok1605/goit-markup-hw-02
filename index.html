@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
@@ -12,50 +13,50 @@
     <!-- Шапка сайта -->
     <header>
         <nav>
-            <a href="/">WebStudio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li>Портфолио</li>
-                <li>Контакты</li>
-            </ul>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+            <a href="/" class="logo">WebStudio</a>
+            <ul class="site-nav list">
+                <li class="site-nav"><a href="/index.html" class="link">Студия</a></li>
+                <li class="site-nav">Портфолио</li>
+                <li class="site-nav">Контакты</li>
             </ul>
         </nav>
+        <ul class="link-nav list">
+            <li><a href="mailto:info@devstudio.com" class="site-nav">info@devstudio.com</a></li>
+            <li><a href="tel:+38 096 111 11 11" class="site-nav">+38 096 111 11 11</a></li>
+        </ul>
     </header>
 
     <main>
         <!-- Секция заказать услуг -->
-        <section>
+        <section class="decision">
             <h1>Эффективные решения для вашего бизнеса</h1>
             <button type="submit">Заказать услугу</button>
         </section>
         <!-- Секция преимуществ  -->
-        <section>
-            <ul>
-                <li>
+        <section class="advantages">
+            <ul class="advantages-text list">
+                <li class="advantages-skills">
                     <h2>Внимание к деталям</h2>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="advantages-skills">
                     <h2>Пунктуальность</h2>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="advantages-skills">
                     <h2>Планирование</h2>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="advantages-skills">
                     <h2>Современные технологии</h2>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="activity">
             <!-- Секция род деятельности -->
             <h3>Чем мы занимаемся</h3>
-            <ul>
+            <ul class="activity list">
                 <li>
                     <img src="images/laptop.png" alt="Ноутбук" width="370" height="294" />
                 </li>
@@ -68,23 +69,23 @@
             </ul>
         </section>
 
-        <section>
+        <section class="team">
             <!-- Секция наши специалисты -->
             <h3>Наша команда</h3>
-            <ul>
-                <li><img src="images/igor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+            <ul class="team list">
+                <li class="team-prof"><img src="images/igor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
-                <li><img src="images/olga.jpg" alt="Ольга Репина" width="270" height="260" />
+                <li class="team-prof"><img src="images/olga.jpg" alt="Ольга Репина" width="270" height="260" />
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
-                <li><img src="images/nikolay.jpg" alt="Николай Тарасов" width="270" height="260" />
+                <li class="team-prof"><img src="images/nikolay.jpg" alt="Николай Тарасов" width="270" height="260" />
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
-                <li><img src="images/mikhail.jpg" alt="Михаил Ермаков" width="270" height="260" />
+                <li class="team-prof"><img src="images/mikhail.jpg" alt="Михаил Ермаков" width="270" height="260" />
                     <h3>Михаил Ермаков</h3>
                     <p>UI Designer</p>
                 </li>
@@ -94,15 +95,15 @@
 
     <!-- Подвал страницы -->
     <footer>
-        <a href="/">
+        <a href="/" class="logo">
             WebStudio
         </a>
         <address>
             г. Киев, пр-т Леси Украинки, 26
         </address>
         <ul>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+38 099 111 11 11">+38 099 111 11 11</a></li>
+            <li class="site-nav"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+            <li class="site-nav"><a href="tel:+38 099 111 11 11" class="link">+38 099 111 11 11</a></li>
         </ul>
     </footer>
 </body>

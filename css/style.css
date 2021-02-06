@@ -1,0 +1,65 @@
+body {
+background-color: #FFFFFF;
+/* color: #757575  */
+}
+
+.list {
+    list-style:none ;
+}
+
+.logo {
+    color:#2196F3 ;
+}
+
+
+.site-nav {
+    color: #212121 ;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus  {
+    color: #2196F3 ;
+}
+
+.decision {
+    background-color: #2F303A;
+}
+
+.decision > h1 {
+    color: #FFFFFF ;
+}
+
+/* .advantages {
+    background-color: #E5E5E5;
+} */
+
+.advantages-skills > h2 {
+    color: #212121;
+}
+
+.advantages-skills > p {
+    color: #757575;
+}
+
+/* .activity {
+    background-color: #E5E5E5; */
+}
+.activity .h3 {
+    color: #212121;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+.team-prof > h3 {
+    color: #212121;
+}
+
+.team-prof > p {
+    color: #757575;
+}
+
+/* основной цвет #212121 */
+/* вторичный цвет #757575 */
+/* третый цвет #FFFFFF */
+/* акцент #2196F3 */
