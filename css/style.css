@@ -1,65 +1,209 @@
 body {
-background-color: #FFFFFF;
-/* color: #757575  */
+color: #FFFFFF;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height: 1.71px;
 }
 
 .list {
-    list-style:none ;
+    list-style:none;
 }
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color1: #212121;
+    --accent-color: #2196F3;
+    --secondary-text-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+}
+
+/* Лого */
 
 .logo {
-    color:#2196F3 ;
+    color: var(--title-text-color1);
 }
 
+.web {
+    color: var(--accent-color);
+}
 
-.site-nav {
-    color: #212121 ;
+.logo,
+.web {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+/* Навигация сайта */
+
+.site-nav .link {
+    color: var(--title-text-color1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus  {
-    color: #2196F3 ;
+    color: var(--accent-color);
 }
+
+.site-nav .link.current {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+/* Контакты шапка*/
+
+.info-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.info-nav .link:hover, 
+.info-nav .link:focus  {
+    color: var(--accent-color);
+}
+
+/* Блок решения и заказа */
 
 .decision {
     background-color: #2F303A;
 }
 
-.decision > h1 {
-    color: #FFFFFF ;
+.decision-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-/* .advantages {
-    background-color: #E5E5E5;
-} */
-
-.advantages-skills > h2 {
-    color: #212121;
+.button:active,
+.button:focus {
+    color: var(--title-text-color1);
+    font-family: Roboto, sans-serif;
+    background-color: var(--secondary-text-color);
+    outline: none;
+    cursor: pointer;
 }
 
-.advantages-skills > p {
-    color: #757575;
+
+
+.button.main {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
-/* .activity {
-    background-color: #E5E5E5; */
-}
-.activity .h3 {
-    color: #212121;
+/* Секция преимущист */
+
+ .hero-title {
+    color: var(--title-text-color1) ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
+.hero-text {
+    color: var(--primary-text-color) ;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.activ-title {
+    color: var(--title-text-color1);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* Команда */
+
+.team-headline {
+    color: var(--title-text-color1);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
 .team {
     background-color: #F5F4FA;
 }
-.team-prof > h3 {
-    color: #212121;
+.team-title {
+    color: var(--title-text-color1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
 }
 
-.team-prof > p {
-    color: #757575;
+.team-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
-/* основной цвет #212121 */
-/* вторичный цвет #757575 */
-/* третый цвет #FFFFFF */
-/* акцент #2196F3 */
+/* Контакты подвал*/
+
+.contacts {
+    background-color: #2F303A;
+}
+.contacts-logo {
+    color: var(--secondary-text-color);
+}
+
+.contacts-web {
+    color: var(--accent-color);
+}
+
+.contacts-logo,
+.contacts-web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.contacts-address {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+}
+
+.contacts-nav .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.contacts-nav .link:hover, 
+.contacts-nav .link:focus  {
+    color: var(--accent-color);
+}
